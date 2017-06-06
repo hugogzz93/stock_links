@@ -2,67 +2,83 @@
 table.table
 	thead
 		tr.row
-			th.col-4 Description
+			th.col-4 Type
 			th.col-8 Direct Link
 
 	tbody
-		tr.row
-			td.col-4 www.bamsec.com
-			td.col-8#bamsec-link
-				a href='#'
-		
-		tr.row
-			td.col-4 www.otcmarkets.com
-			td.col-8#otcmarkets-link 
-				a href='#'
+		tr.row#filings-row
+			td.col-2
+				| Filings
+			td.col-10
+				table.table
+					tbody
+						tr.row
+							td.col-3 www.bamsec.com
+							td.col-9#bamsec-link
+								a href='#'
+						
+						tr.row
+							td.col-3 www.otcmarkets.com
+							td.col-9#otcmarkets-link 
+								a href='#'
 
-		
-		tr.row
-			td.col-4 www.finviz.com
-			td.col-8#finviz-link
-				a href='#'
+						tr.row
+							td.col-3 www.sec.gov
+							td.col-9#secgov-link
+								a href='#'
+		tr.row#news-row
+			td.col-2 News
+			td.col-10
+				table.table
+					tr.row
+						td.col-3 www.finviz.com
+						td.col-9#finviz-link
+							a href='#'
+					
+					tr.row
+						td.col-3 www.google.com/finance
+						td.col-9#google-link
+							a href='#'
 
-		
-		tr.row
-			td.col-4 www.google.com/finance
-			td.col-8#google-link
-				a href='#'
+					tr.row
+						td.col-3 finance.yahoo.com
+						td.col-9#yahoo-link
+							a href='#'
+					
+					tr.row
+						td.col-3 www.seekingalpha.com
+						td.col-9#seekingalpha-link
+							a href='#'
+					
+					tr.row
+						td.col-3 www.benzinga.com
+						td.col-9#benzinga-link
+							a href='#'
 
-		tr.row
-			td.col-4 finance.yahoo.com
-			td.col-8#yahoo-link
-				a href='#'
-		
-		tr.row
-			td.col-4 www.seekingalpha.com
-			td.col-8#seekingalpha-link
-				a href='#'
+				
+		tr.row#chart-row
+			td.col-2 Chart
+			td.col-10
+				table.table
+					tr.row
+						td.col-3 www.tradingview.com
+						td.col-9#tradingview-link
+							a href='#'
 
-		
-		tr.row
-			td.col-4 www.benzinga.com
-			td.col-8#benzinga-link
-				a href='#'
+		tr.row#short-interest-link
+			td.col-2 Short Interest
+			td.col-10
+				table.table
+					tr.row
+						td.col-3 www.shortsqueeze.com
+						td.col-9#shortsqueeze-link
+							a href='#'
 
-		
-		tr.row
-			td.col-4 www.tradingview.com
-			td.col-8#tradingview-link
-				a href='#'
-
-		
-		tr.row
-			td.col-4 www.shortsqueeze.com
-			td.col-8#shortsqueeze-link
-				a href='#'
-
-		
-		tr.row
-			td.col-4 www.openinsider.com
-			td.col-8#openinsider-link
-				a href='#'
-
-		tr.row
-			td.col-4 www.sec.gov
-			td.col-8#secgov-link
-				a href='#'
+		tr.row#insiders-link	
+			td.col-2 Insiders
+			td.col-10
+				table.table
+					tr.row
+						td.col-3 www.openinsider.com
+						td.col-9#openinsider-link
+							a href='#'
