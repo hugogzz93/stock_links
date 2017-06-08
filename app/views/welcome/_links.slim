@@ -1,12 +1,12 @@
 
-table.table
+table.table#main-table
 	thead
 		tr.row
 			th.col-5 Type
 			th.col-7 Direct Link
 
 	tbody
-		tr.row#filings-row
+		tr.category.row#filings-row
 			td.col-2
 				| Filings
 			td.col-10
@@ -26,7 +26,22 @@ table.table
 							td.col-3 www.sec.gov
 							td.col-9#secgov-link
 								a href='#'
-		tr.row#news-row
+		
+		tr.category.row#insiders-link	
+			td.col-2 Twitter
+			td.col-10
+				table.table
+					tr.row
+						td.col-3 Twitter
+						td.col-9#twitter-link
+							a href='#'
+
+					tr.row
+						td.col-3 @adamfeuerstein
+						td.col-9#twitter-adv-link
+							a href='#'
+
+		tr.category.row#news-row
 			td.col-2 News
 			td.col-10
 				table.table
@@ -56,7 +71,7 @@ table.table
 							a href='#'
 
 				
-		tr.row#chart-row
+		tr.category.row#chart-row
 			td.col-2 Chart
 			td.col-10
 				table.table
@@ -65,7 +80,7 @@ table.table
 						td.col-9#tradingview-link
 							a href='#'
 
-		tr.row#short-interest-link
+		tr.category.row#short-interest-row
 			td.col-2 Short Interest
 			td.col-10
 				table.table
@@ -74,25 +89,11 @@ table.table
 						td.col-9#shortsqueeze-link
 							a href='#'
 
-		tr.row#insiders-link	
+		tr.category.row#insiders-row
 			td.col-2 Insiders
 			td.col-10
 				table.table
 					tr.row
 						td.col-3 www.openinsider.com
 						td.col-9#openinsider-link
-							a href='#'
-
-		tr.row#insiders-link	
-			td.col-2 Twitter
-			td.col-10
-				table.table
-					tr.row
-						td.col-3 Twitter
-						td.col-9#twitter-link
-							a href='#'
-
-					tr.row
-						td.col-3 @adamfeuerstein
-						td.col-9#twitter-adv-link
 							a href='#'
