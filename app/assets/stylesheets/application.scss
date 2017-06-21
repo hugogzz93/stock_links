@@ -26,3 +26,59 @@
    .category {
      border-top: 2px solid #ECEEEF;
    }
+
+   .bold {
+      font-weight: bold;
+   }
+
+   .center {
+      text-align: center;
+   }
+
+   .align-center {
+      text-align: center;
+      padding-right: 5%;
+      height: 100%;
+      width: auto;
+      
+   }
+
+   #filings-row {
+      .align-center {
+         padding-top: 38%;
+      }
+   }
+
+   #insiders-link {
+      .align-center {
+         padding-top: 22%;
+      }
+   }
+
+
+   #news-row {
+      .align-center {
+         padding-top: 50%;
+      }
+   }
+
+   #chart-row {
+      .align-center {
+         padding-top: 8%;
+      }
+   }
+
+
+   #short-interest-row {
+      .align-center {
+         padding-top: 11%;
+      }
+   }
+   #insiders-row {
+      .align-center {
+         padding-top: 8%;
+      }
+   }
+
+
+
