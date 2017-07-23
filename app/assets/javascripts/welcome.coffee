@@ -49,4 +49,9 @@ set_links = () ->
 
   $('#twitter-adv-link a').attr('href', "https://twitter.com/search?l=&q=%23%24#{val}%20from%3Aadamfeuerstein&src=typd&lang=en")
                       .text("https://twitter.com/search?l=&q=%23%24#{val}%20from%3Aadamfeuerstein&src=typd&lang=en")
+  $('#bigcharts-link a').attr('href', "http://bigcharts.marketwatch.com/advchart/frames/frames.asp?show=&insttype=Stock&symb=#{val}&time=18&startdate=1%2F4%2F1999&enddate=7%2F10%2F2017&freq=8&compidx=aaaaa%3A0&comptemptext=&comp=none&ma=0&maval=9&uf=32&lf=1&lf2=0&lf3=0&type=4&style=320&size=3&x=52&y=11&timeFrameToggle=false&compareToToggle=false&indicatorsToggle=false&chartStyleToggle=false&state=11")
+                          .text("http://bigcharts.marketwatch.com/advchart/frames/frames.asp?show=&insttype=Stock&symb=#{val}...")
+
+
+
 
